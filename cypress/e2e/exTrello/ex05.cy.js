@@ -20,7 +20,7 @@ context('ex05', () => {
 
         cy.get('#txtN1').type('Pássaros')
         cy.get('#txtV1').type(133)
-        cy.get('#txtN2').type('Pássaros')
+        cy.get('#txtN2').type('Peixes')
         cy.get('#txtV2').type(-27)
         cy.get('input').contains('Enviar').click()
         
