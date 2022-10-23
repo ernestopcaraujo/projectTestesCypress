@@ -72,8 +72,6 @@ context('ex04', () => {
             cy.get('#txtN5').invoke('text').then(campo => {expect(campo).to.equal('')}) 
             cy.get('#txtN6').invoke('text').then(campo => {expect(campo).to.equal('')}) 
             cy.get('#txtN7').invoke('text').then(campo => {expect(campo).to.equal('')})
-
-            cy.get('input').contains('Limpar').click()
             cy.get('#txtV1').invoke('text').then(campo => {expect(campo).to.equal('')})
             cy.get('#txtV2').invoke('text').then(campo => {expect(campo).to.equal('')}) 
             cy.get('#txtV3').invoke('text').then(campo => {expect(campo).to.equal('')}) 
@@ -147,8 +145,6 @@ context('ex04', () => {
         cy.get('#txtN5').invoke('text').then(campo => {expect(campo).to.equal('')}) 
         cy.get('#txtN6').invoke('text').then(campo => {expect(campo).to.equal('')}) 
         cy.get('#txtN7').invoke('text').then(campo => {expect(campo).to.equal('')})
-
-        cy.get('input').contains('Limpar').click()
         cy.get('#txtV1').invoke('text').then(campo => {expect(campo).to.equal('')})
         cy.get('#txtV2').invoke('text').then(campo => {expect(campo).to.equal('')}) 
         cy.get('#txtV3').invoke('text').then(campo => {expect(campo).to.equal('')}) 
@@ -233,8 +229,6 @@ context('ex04', () => {
         cy.get('#txtN5').invoke('text').then(campo => {expect(campo).to.equal('')}) 
         cy.get('#txtN6').invoke('text').then(campo => {expect(campo).to.equal('')}) 
         cy.get('#txtN7').invoke('text').then(campo => {expect(campo).to.equal('')})
-
-        cy.get('input').contains('Limpar').click()
         cy.get('#txtV1').invoke('text').then(campo => {expect(campo).to.equal('')})
         cy.get('#txtV2').invoke('text').then(campo => {expect(campo).to.equal('')}) 
         cy.get('#txtV3').invoke('text').then(campo => {expect(campo).to.equal('')}) 
