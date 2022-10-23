@@ -12,6 +12,7 @@ context('ex06', () => {
         cy.get("table tbody tr").should("have.length",3)
 
         cy.get("tbody tr")
+
         .each(($el,index,$list)=>
             {
                 if(index>0)
@@ -51,7 +52,7 @@ context('ex06', () => {
         cy.get('#txtV2').type(30)
         cy.get('#txtN3').type('Coleiras')
         cy.get('#txtV3').type(150)
-        cy.get('#txtN4').type('Remedios')
+        cy.get('#txtN4').type('Remédios')
         cy.get('#txtV4').type(-1)
         cy.get('input').contains('Enviar').click()
 
@@ -67,7 +68,7 @@ context('ex06', () => {
                             if (index==1){expect(p).to.equal('Ração')}
                             if (index==2){expect(p).to.equal('Petiscos')}
                             if (index==3){expect(p).to.equal('Coleiras')}
-                            if (index==4){expect(p).to.equal('Remedios')}
+                            if (index==4){expect(p).to.equal('Remédios')}
                         } 
                     )
                 }
